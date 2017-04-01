@@ -1,0 +1,14 @@
+[% PROCESS settings/header.html %]
+
+  [% WRAPPER setting title="PLUGIN_RESPOTLMS" desc="" %]
+    <div class="prefDesc">[% "PLUGIN_RESPOTLMS_DESC" | string %]</div>
+    [% "SETUP_PLUGIN_RESPOTLMS_ABOUT" | string %]
+  [% END %]
+
+  [% WRAPPER setting title="SETUP_PLUGIN_RESPOTLMS_HOSTNAME" desc="SETUP_PLUGIN_RESPOTLMS_HOSTNAME_DESC" %]
+    <input type="text" class="stdedit" name="hostname" value="[% prefs.hostname %]" size="60" />
+  [% END %]
+
+  <input name="reset" type="submit" class="stdclick" value="[% "SETUP_PLUGIN_RESPOTLMS_RESET" | string %]">
+
+[% PROCESS settings/footer.html %]

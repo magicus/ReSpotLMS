@@ -1,0 +1,16 @@
+<extensions>
+  <details>
+    <title lang="EN">ReSpotLMS Plugin</title>
+  </details>
+  <plugins>
+    <plugin name="ReSpotLMS" version="@@VERSION@@" minTarget="7.9" maxTarget="*">
+      <title lang="EN">ReSpotLMS</title>
+      <desc lang="EN">Provide Spotify Connect functionality in LMS using librespot</desc>
+      <url>https://raw.github.com/magicus/ReSpotLMS/master/ReSpotLMS.zip</url>
+      <link>https://github.com/magicus/ReSpotLMS</link>
+      <sha>@@SHA@@</sha>
+      <creator>magicus</creator>
+      <email>mag@icus.se</email>
+    </plugin>
+  </plugins>
+</extensions>

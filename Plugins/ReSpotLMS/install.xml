@@ -1,0 +1,19 @@
+<?xml version='1.0' standalone='yes'?>
+
+<extension>
+  <name>PLUGIN_RESPOTLMS</name>
+  <module>Plugins::ReSpotLMS::Plugin</module>
+  <version>0.1</version>
+  <description>PLUGIN_RESPOTLMS_DESC</description>
+  <creator>magicus</creator>
+  <defaultState>enabled</defaultState>
+  <homepageURL>https://github.com/magicus/ReSpotLMS</homepageURL>
+  <optionsURL>plugins/ReSpotLMS/settings/basic.html</optionsURL>
+  <icon>plugins/ReSpotLMS/html/images/spotify.jpg</icon>
+  <type>2</type>
+  <targetApplication>
+    <id>Logitech Media Server</id>
+    <minVersion>7.9</minVersion>
+    <maxVersion>7.*</maxVersion>
+  </targetApplication>
+</extension>

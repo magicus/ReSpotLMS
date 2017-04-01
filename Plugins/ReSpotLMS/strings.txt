@@ -1,0 +1,19 @@
+# String file for ReSpotLMS plugin
+
+PLUGIN_RESPOTLMS
+	EN	ReSpotLMS
+
+PLUGIN_RESPOTLMS_DESC
+	EN	Provide Spotify Connect functionality in LMS using librespot
+
+SETUP_PLUGIN_RESPOTLMS_ABOUT
+	EN	ReSpotLMS v0.1 by magicus
+
+SETUP_PLUGIN_RESPOTLMS_HOSTNAME
+	EN	Server name to display
+
+SETUP_PLUGIN_RESPOTLMS_HOSTNAME_DESC
+	EN	The name of this LMS server that will show up in other Spotify devices
+
+SETUP_PLUGIN_RESPOTLMS_RESET
+	EN	Reset to default settings
